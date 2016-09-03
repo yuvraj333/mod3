@@ -1,3 +1,16 @@
 body {
-	background-color: #37da7e;
+	background-color: #3714b0;
+	font-size: 16px;
+	color: white;
+}
+
+#header-nav {
+	background-color: #1f0772;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+	color: white;
 }

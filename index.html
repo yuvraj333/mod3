@@ -13,18 +13,31 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="#" class="pull-left">Food, LLC</a>
-            <button type="button" class="navbar-toggle collapsed visible-xs"  data-target="#collapsable-nav" aria-expanded="false"><span class="sr-only">Toggle navigation</span>
+          <a href="#" class="navbar-brand pull-left">Food, LLC</a>
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+        </div><!-- navbar header -->
+
+        <div class="collapse navbar-collapse" id="collapsable-nav">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li><a href="#">Beef</a></li>
+            <li><a href="#">Chicken</a></li>
+            <li><a href="#">Sushi</a></li>
+          </ul>
         </div>
       </div>
     </nav>
   </header>
+
+  <div class="container" id="main-content">
+    <h1 class="text-center">Our Menu</h1>
+  </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
