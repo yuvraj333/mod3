@@ -33,6 +33,10 @@ body {
 /* END HEADER */
 
 /* Section */
+#home {
+	margin-bottom: 30px;
+}
+
 .row {
 	background-color: white;
 	margin-bottom: 20px;
