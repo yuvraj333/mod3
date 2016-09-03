@@ -39,7 +39,7 @@ body {
 
 .row {
 	background-color: white;
-	margin-bottom: 20px;
+	margin: 20px;
 	color: black;
 }
 
@@ -47,6 +47,7 @@ body {
 	text-align: justify;
 }
 /* End Section */
+
 
 @media (max-width: 767px) {
 	.row {
