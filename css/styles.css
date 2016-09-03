@@ -1,16 +1,52 @@
 body {
-	background-color: #3714b0;
 	font-size: 16px;
+	color: white;
+	background-color: #8243d6;
+	font-family: 'Lobster', cursive;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #530fad;
+	border-radius: 0;
+	border: 0;
 	color: white;
 }
 
-#header-nav {
-	background-color: #1f0772;
-	border-radius: 0;
-	border: 0;
+.navbar-brand p {
+	color: white;
+	font-size: 20px;
 }
 
 .navbar-brand a:focus, .navbar-brand a:hover {
 	text-decoration: none;
+}
+
+#nav-list a {
 	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #8243d6;
+}
+/* END HEADER */
+
+/* Section */
+.row {
+	background-color: white;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.row > div > p {
+	text-align: justify;
+}
+/* End Section */
+
+@media (max-width: 767px) {
+	.row {
+		width: 80%;
+		margin: 20px auto 0;
+	}
 }
