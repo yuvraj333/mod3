@@ -38,19 +38,23 @@ body {
 }
 
 .row {
-	background-color: white;
-	margin: 20px;
-	color: black;
+	
+	position: relative;
+	float: left;
 }
 
-.row > div > p {
+.row > div > article {
+	background-color: white;
 	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
 }
 /* End Section */
 
 
 @media (max-width: 767px) {
-	.row {
+	.row > div > article {
 		width: 80%;
 		margin: 20px auto 0;
 	}
